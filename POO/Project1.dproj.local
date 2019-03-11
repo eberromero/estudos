@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/03/02 23:02:47.000.099,=D:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2019/03/10 23:31:41.248,=D:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2019/03/10 23:32:40.010,D:\Estudos\Delphi\VideoAulas\POO\View.Principal.pas=D:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2019/03/10 23:32:40.010,D:\Estudos\Delphi\VideoAulas\POO\View.Principal.dfm=D:\Projetos\Unit1.dfm</Transaction>
+    <Transaction>2019/03/10 23:32:49.586,D:\Estudos\Delphi\VideoAulas\POO\Project1.dproj=D:\Projetos\Project1.dproj</Transaction>
+    <Transaction>2019/03/10 23:34:49.960,=D:\Estudos\Delphi\VideoAulas\POO\Unit1.pas</Transaction>
+    <Transaction>2019/03/10 23:34:56.079,=D:\Estudos\Delphi\VideoAulas\POO\Classe.Pessoa.pas</Transaction>
+    <Transaction>2019/03/10 23:35:15.328,D:\Estudos\Delphi\VideoAulas\POO\Classe.pas=D:\Estudos\Delphi\VideoAulas\POO\Unit1.pas</Transaction>
+    <Transaction>2019/03/10 23:36:16.899,=D:\Estudos\Delphi\VideoAulas\POO\Classe.SQL.pas</Transaction>
+    <Transaction>2019/03/10 23:45:50.732,=D:\Estudos\Delphi\VideoAulas\POO\Unit1.pas</Transaction>
+    <Transaction>2019/03/10 23:45:55.079,D:\Estudos\Delphi\VideoAulas\POO\Classe.Cliente.pas=D:\Estudos\Delphi\VideoAulas\POO\Unit1.pas</Transaction>
+    <Transaction>2019/03/11 01:12:49.628,=D:\Estudos\Delphi\VideoAulas\POO\Unit1.pas</Transaction>
+    <Transaction>2019/03/11 01:12:59.918,D:\Estudos\Delphi\VideoAulas\POO\Classe.Endereco.pas=D:\Estudos\Delphi\VideoAulas\POO\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

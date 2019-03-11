@@ -1,0 +1,168 @@
+unit View.Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Classe.Cliente, Vcl.WinXPickers;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    edtNome: TEdit;
+    Button2: TButton;
+    DatePicker1: TDatePicker;
+    Edit1: TEdit;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+uses Classe.Pessoa;
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  Pessoa1 : TPessoa;
+  Cliente1 : TCliente;
+begin
+  Pessoa1 := TPessoa.Create;
+  Cliente1 := TCliente.Create;
+  try
+    Pessoa1.Nome := edtNome.Text; // Thulio
+    Pessoa1.DataNasc := DateToStr(DatePicker1.Date); //'12/09/1987';
+
+    Cliente1.Nome := 'Eber';
+    Cliente1.DataNasc := '30/01/1988';
+
+    ShowMessage(Pessoa1.Nome + ' - ' + IntToStr(Pessoa1.Idade));
+    ShowMessage(Cliente1.Nome + ' - ' + IntToStr(Cliente1.Idade));
+  finally
+    Pessoa1.Free;
+    Cliente1.Free;
+  end;
+
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+var
+  Pessoa1 : TPessoa;
+  Cliente1 : TCliente;
+  Value : Currency;
+  Inteiro : Integer;
+begin
+  Pessoa1 := TPessoa.Create;
+  Cliente1 := TCliente.Create;
+  try
+    Value := 10.5;
+    ShowMessage(Pessoa1.Receber(Value));
+
+    Inteiro := 5;
+    ShowMessage(Pessoa1.Receber(Inteiro));
+
+    ShowMessage(Pessoa1.Receber(6 + 6));
+  finally
+    Pessoa1.Free;
+    Cliente1.Free;
+  end;
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+var
+  Pessoa1 : TPessoa;
+  Cliente1 ,
+  Cliente2 ,
+  Cliente3 : TCliente;
+begin
+  Pessoa1 := TPessoa.Create;
+  Pessoa1.Nome := 'Fulano';
+  Pessoa1.DataNasc := '01/01/2002';
+  Pessoa1.Sexo := 'Masculino';
+  Cliente1 := TCliente.Create;
+  Cliente2 := TCliente.Create('Thulio');
+  Cliente3 := TCliente.Create(Pessoa1);
+  try
+    ShowMessage(Cliente1.Nome);
+
+    ShowMessage(Cliente2.Nome);
+
+    ShowMessage(Cliente3.Nome + ' - ' + Cliente3.DataNasc + ' - ' + Cliente3.Sexo);
+  finally
+    Pessoa1.Free;
+    Cliente1.Free;
+    Cliente2.Free;
+    Cliente3.Free;
+  end;
+
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+var
+  Cliente1 : TCliente;
+begin
+  Cliente1 := TCliente.Create;
+  try
+    ShowMessage(Cliente1.MetodoAbstrato);
+  finally
+    Cliente1.Free;
+  end;
+end;
+
+procedure TForm1.Button5Click(Sender: TObject);
+var
+  Cliente1 : TCliente;
+begin
+  Cliente1 := TCliente.Create;
+  try
+    ShowMessage(Cliente1.Endereco.Logradouro);
+  finally
+    Cliente1.Destroy;
+  end;
+end;
+
+end.
+{ Thulio Bitencourt
+  4 - Principais conceitos
+    Abstração
+      - Possibilidade de modelar objetos e problemas do mundo real dentro da linguagem
+      - Capacidade de suporte ao mundo real e a reutilização dos métodos e procedimentos
+
+    Encapsulamento
+      - Capacidade de criar objetos e procedimentos reutilizaveis,
+                sem se preocupar com detalhes e regas internas;
+
+    Encapsulamento - Coesão
+      - Comportamentos Unicos, métodos e funcções que realizem apenas uma unica
+        operação para facilitarem o seu reaproveitamento
+
+    Encapsulamento - Acoplamento
+      -
+    Herança
+      -
+
+    Polimorfismo
+      - OVERLOAD
+
+      - OVERRIDE
+
+      - ABSTRACT
+
+      - VIRTUAL
+
+
+}

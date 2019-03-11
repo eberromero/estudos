@@ -1,0 +1,18 @@
+unit Classe.Endereco;
+
+interface
+
+uses
+  System.SysUtils;
+
+type TEndereco = class
+  private
+  public
+    Logradouro: String;
+    NUmero: Integer;
+
+end;
+
+implementation
+
+end.

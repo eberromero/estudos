@@ -1,0 +1,13 @@
+unit Classe.Endereco;
+
+interface
+
+uses
+  System.SysUtils;
+type TEndereco = class
+
+end;
+
+implementation
+
+end.
