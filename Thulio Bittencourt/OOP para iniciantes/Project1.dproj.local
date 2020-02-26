@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/03/02 23:02:47.000.099,=D:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2019/04/01 22:30:33.000.309,=D:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2019/04/18 01:41:04.000.748,=D:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2020/02/25 22:31:30.166,=D:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2020/02/25 22:34:21.905,=D:\Projetos\Unit2.pas</Transaction>
+    <Transaction>2020/02/25 22:36:16.598,D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Unit2.pas=D:\Projetos\Unit2.pas</Transaction>
+    <Transaction>2020/02/25 22:36:22.083,D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Unit1.pas=D:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2020/02/25 22:36:22.083,D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Unit1.dfm=D:\Projetos\Unit1.dfm</Transaction>
+    <Transaction>2020/02/25 22:36:25.756,D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Project1.dproj=D:\Projetos\Project1.dproj</Transaction>
+    <Transaction>2020/02/25 22:52:53.783,D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Classe.Pessoa.pas=D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Unit2.pas</Transaction>
+    <Transaction>2020/02/25 22:53:16.272,D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\View.Principal.pas=D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Unit1.pas</Transaction>
+    <Transaction>2020/02/25 22:53:16.272,D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\View.Principal.dfm=D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Unit1.dfm</Transaction>
+    <Transaction>2020/02/25 23:16:29.535,=D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Unit1.pas</Transaction>
+    <Transaction>2020/02/25 23:17:52.620,D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Classe.pas=D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Unit1.pas</Transaction>
+    <Transaction>2020/02/25 23:18:26.716,D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Classe.SQL.SQL=D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Classe.SQL</Transaction>
+    <Transaction>2020/02/25 23:24:06.376,=D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Unit1.pas</Transaction>
+    <Transaction>2020/02/25 23:24:20.609,D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Classe.Cliente.pas=D:\Estudos\Delphi\Thulio Bittencourt\OOP para iniciantes\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
